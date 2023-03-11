@@ -15,11 +15,11 @@
             myAddressBook.PrintContacts();
 
 
-            string path = "C:\\Users\\princ\\OneDrive\\Desktop\\dotnet\\Day27AddressBookFileIO\\Day27AddressBookFileIO\\NewFile.txt";
+            //string path = "C:\\Users\\princ\\OneDrive\\Desktop\\dotnet\\Day27AddressBookFileIO\\Day27AddressBookFileIO\\NewFile.txt";
 
+            string path = "C:\\Users\\princ\\OneDrive\\Desktop\\dotnet\\Day27AddressBookFileIO\\Day27AddressBookFileIO\\Contacts.csv";
+            myAddressBook.ExportToCsv(path);
 
-            //myAddressBook.WriteToFile(path);
-            //myAddressBook.ReadFromFile(path);
         }
      }
  }
